@@ -1,14 +1,48 @@
+:root {
+  --background-color: rgb(233 231 201);
+  --heading-font-family: "Josefin Sans", sans-serif;
+  --paragraph-font-family: "Poppins", sans-serif;
+}
+
 body {
+  color: black;
+  font-family: var(--paragraph-font-family);
+}
+.hero {
+  background-color: var(--background-color);
   text-align: center;
+  padding: 180px 30px;
+  line-height: 2;
 }
 h1,
 h2,
 h3,
 h5 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
-p {
-  font-family: "Poppins", sans-serif;
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 35px;
+  color: rgb(41, 39, 39);
+}
+h3 {
+  font-size: 40px;
+}
+.btn-branding {
+  background-color: rgb(41, 39, 39);
+  color: white;
+  border-radius: 8px;
   font-weight: 300;
+  font-size: 20px;
+  padding: 16px 26px;
+}
+
+p {
+  font-weight: 300;
+}
+footer {
+  text-align: center;
 }
