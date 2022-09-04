@@ -1,16 +1,16 @@
 :root {
-  --background-color: rgb(233 231 201);
+  --background-color: rgb(230 229 218);
   --heading-font-family: "Josefin Sans", sans-serif;
   --paragraph-font-family: "Poppins", sans-serif;
 }
 
 body {
+  text-align: center;
   color: black;
   font-family: var(--paragraph-font-family);
 }
 .hero {
   background-color: var(--background-color);
-  text-align: center;
   padding: 180px 30px;
   line-height: 2;
 }
@@ -43,6 +43,14 @@ h3 {
 p {
   font-weight: 300;
 }
-footer {
-  text-align: center;
+
+.around {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+.project {
+  background-color: var(--background-color);
+  color: black;
+  font-size: 18px;
+  padding: 12px 20px;
 }
