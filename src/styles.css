@@ -2,6 +2,7 @@
   --background-color: rgb(230 229 218);
   --heading-font-family: "Josefin Sans", sans-serif;
   --paragraph-font-family: "Poppins", sans-serif;
+  --opacity-font-color: rgb(41, 39, 39);
 }
 
 body {
@@ -32,7 +33,7 @@ h3 {
   font-size: 40px;
 }
 .btn-branding {
-  background-color: rgb(41, 39, 39);
+  background-color: var(--opacity-font-color);
   color: white;
   border-radius: 8px;
   font-weight: 300;
@@ -58,4 +59,17 @@ p {
 footer {
   font-size: 28px;
   color: rgb(41, 39, 39);
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    text-shadow: var(--opacity-font-color) 1px 1px;
+  }
+  .btn-branding {
+    font-size: 16px;
+  }
+  img,
+  .around {
+    display: none;
+  }
 }
