@@ -18,7 +18,9 @@ body {
 h1,
 h2,
 h3,
-h5 {
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -34,6 +36,12 @@ h3 {
 }
 h4 {
   font-size: 38px;
+}
+h5 {
+  font-size: 57px;
+}
+h6 {
+  font-size: 33px;
 }
 .btn-branding {
   background-color: var(--opacity-font-color);
@@ -82,4 +90,16 @@ footer {
   .around {
     display: none;
   }
+  .avatar {
+    display: flex;
+  }
+}
+.name {
+  font-size: 30px;
+}
+.job {
+  font-size: 20px;
+}
+.avatar {
+  max-width: 360px;
 }
