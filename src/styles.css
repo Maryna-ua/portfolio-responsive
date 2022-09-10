@@ -29,7 +29,7 @@ h1 {
 }
 h2 {
   font-size: 35px;
-  color: rgb(41, 39, 39);
+  color: var(--opacity-font-color);
 }
 h3 {
   font-size: 40px;
@@ -67,7 +67,7 @@ p {
   padding: 12px 20px;
 }
 
-.about-content {
+.content-in {
   padding: 180px 0;
 }
 .see-projects {
@@ -81,11 +81,15 @@ p {
 .donate {
   text-decoration: none;
 }
+.works-list {
+  max-height: 440px;
+}
 
 footer {
   font-size: 28px;
   color: rgb(41, 39, 39);
 }
+
 @media (max-width: 767px) {
   .hero {
     padding: 30px;
@@ -111,7 +115,7 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  .about-content {
+  .content {
     padding: 10px;
   }
 
