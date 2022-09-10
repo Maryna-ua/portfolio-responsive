@@ -38,10 +38,10 @@ h4 {
   font-size: 38px;
 }
 h5 {
-  font-size: 57px;
+  font-size: 53px;
 }
 h6 {
-  font-size: 33px;
+  font-size: 28px;
 }
 .btn-branding {
   background-color: var(--opacity-font-color);
@@ -67,11 +67,26 @@ p {
   padding: 12px 20px;
 }
 
+.about-content {
+  padding: 180px 0;
+}
+.see-projects {
+  font-size: 16px;
+  padding: 13px 20px;
+}
+.headshot {
+  width: 435px;
+}
+
+.donate {
+  text-decoration: none;
+}
+
 footer {
   font-size: 28px;
   color: rgb(41, 39, 39);
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .hero {
     padding: 30px;
   }
@@ -90,16 +105,22 @@ footer {
   .around {
     display: none;
   }
-  .avatar {
-    display: flex;
+
+  .see-projects {
+    margin-bottom: 30px;
   }
 }
-.name {
-  font-size: 30px;
-}
-.job {
-  font-size: 20px;
-}
-.avatar {
-  max-width: 360px;
+@media (max-width: 768px) {
+  .about-content {
+    padding: 10px;
+  }
+
+  h5 {
+    padding: 10px;
+    text-shadow: var(--opacity-font-color) 1px 1px;
+    font-size: 35px;
+  }
+  h6 {
+    font-size: 26px;
+  }
 }
