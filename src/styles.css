@@ -104,13 +104,15 @@ p {
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
-.social-links i {
+.social-links a {
   margin: 25px;
-  padding: 15px;
+  padding: 15px 20px;
   border-radius: 50%;
+  font-size: 22px;
+  color: var(--opacity-font-color);
   background-color: var(--background-color);
 }
-.social-links i:hover {
+.social-links a:hover {
   color: var(--background-color);
   background-color: var(--opacity-font-color);
   transition: all 100ms ease-in-out;
@@ -141,7 +143,7 @@ p {
   }
 }
 @media (max-width: 768px) {
-  .content {
+  .content-in {
     padding: 10px;
   }
 
