@@ -52,6 +52,9 @@ h6 {
   padding: 16px 26px;
 }
 
+a {
+  text-decoration: none;
+}
 p {
   font-weight: 300;
 }
@@ -84,14 +87,33 @@ p {
 .works-list {
   max-height: 440px;
 }
-
-footer {
-  font-size: 28px;
-  color: rgb(41, 39, 39);
+.contact-box {
+  padding: 30px 200px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+.contact-box p {
+  margin: 0;
 }
 
-.contact {
-  text-decoration: none;
+.mail-link a {
+  font-size: 28px;
+  color: var(--opacity-font-color);
+}
+.mail-link a:hover {
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+.social-links i {
+  margin: 25px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+}
+.social-links i:hover {
+  color: var(--background-color);
+  background-color: var(--opacity-font-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 767px) {
