@@ -90,6 +90,10 @@ footer {
   color: rgb(41, 39, 39);
 }
 
+.contact {
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .hero {
     padding: 30px;
